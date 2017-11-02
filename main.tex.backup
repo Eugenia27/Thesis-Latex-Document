@@ -1,0 +1,391 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters/Doctoral Thesis 
+% LaTeX Template
+% Version 2.5 (27/8/17)
+%
+% This template was downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Version 2.x major modifications by:
+% Vel (vel@latextemplates.com)
+%
+% This template is based on a template by:
+% Steve Gunn (http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/)
+% Sunil Patel (http://www.sunilpatel.co.uk/thesis-template/)
+%
+% Template license:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+12pt, % The default document font size, options: 10pt, 11pt, 12pt
+%oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
+spanish,
+singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
+%draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
+%nolistspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
+%liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
+%toctotoc, % Uncomment to add the main table of contents to the table of contents
+%parskip, % Uncomment to add space between paragraphs
+%nohyperref, % Uncomment to not load the hyperref package
+headsepline, % Uncomment to get a line under the header
+%chapterinoneline, % Uncomment to place the chapter title next to the number on one line
+%consistentlayout, % Uncomment to change the layout of the declaration, abstract and acknowledgements pages to match the default layout
+]{MastersDoctoralThesis} % The class file specifying the document structure
+
+%-----------------------------------------------------------------------------------------------------------------------------------------
+%Paquetes
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+%\usepackage[T1]{fontenc} % Output font encoding for international characters
+%\usepackage{mathpazo} % Use the Palatino font by default
+\usepackage{times}
+\usepackage{natbib} % if you don't have this line, output will be like your image
+\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+\usepackage[colorlinks=true,linkcolor=blue]{hyperref}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage[font={footnotesize}]{caption}
+\usepackage{amssymb}
+%\usepackage{amsmath}
+\usepackage{adjustbox}
+%-------------------------------------------------------------------------------------------------------------------------------------
+
+\captionsetup[table]{name=Tabla} %para que no me escriba por defecto CUADRO en lugar de TABLA
+\decimalpoint
+
+%-------------------------------------------------------------------------------------------------------------------------------------
+\def\cmay    {{\bf CMAY}}
+\def\cmen    {{\bf CMEN}}
+\def\aum     {{\bf AUM}}
+\def\aumu    {{\bf AUM1}}
+\def\aumd    {{\bf AUM2}}
+\def\agnoff  {{\bf AGN-OFF}}
+\def\agnon   {{\bf AGN-ON}}
+\def\agn     {{\it AGN}}
+\def\hr      {{\bf HR}}
+\def\mr      {{\bf MR}}
+\def\lr      {{\bf LR}}
+\def\bcgs    {{\it BCGs}}
+\def\bcg     {{\it BCG}}
+\def\mvc     {M$_{\mu_{24}}$}
+\def\rvc     {R$_{\mu_{24}}$}
+\def\rum     {R$_{1/2}$}
+\def\z       {\textit{redshifts}}
+\def\icl     {{\it ICL}}
+
+
+%Journals
+\def\apj {ApJ}
+\def\apjl {ApJL}
+\def\apjs {ApJS}
+\def\aj {AJ}
+\def\aap {A\&A}
+\def\mnras {MNRAS}
+\def\farcs{\hbox{$.\!\!^{\prime\prime}$}}
+\def\apj {ApJ}
+\def\pasp {PASP}
+\def\araa {ARA\&A}
+\def\nat {Nature}
+
+
+%-----------------------------------------------------------------------------------------------------------------------------------------------
+\definecolor{maruc}{RGB}{24,175,95}
+
+\newcommand{\CIN}[1]{\textcolor{orange}{ \ #1}}
+\newcommand{\MARU}[1]{\textcolor{maruc}{ \ #1}}
+%----------------------------------------------------------------------------------------
+%	MARGIN SETTINGS
+%----------------------------------------------------------------------------------------
+
+\geometry{
+	paper=a4paper, % Change to letterpaper for US letter
+	inner=2.5cm, % Inner margin 2.5
+	outer=2.5cm, % Outer margin 3.8
+	bindingoffset=.5cm, % Binding offset
+	top=1.5cm, % Top margin
+	bottom=1.5cm, % Bottom margin
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+%----------------------------------------------------------------------------------------
+%	THESIS INFORMATION
+%----------------------------------------------------------------------------------------
+
+\thesistitle{Galaxias Centrales de C\'umulos Masivos en Simulaciones Cosmol\'ogicas Hidrodin\'amicas} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
+\supervisor{Dra. Cinthia Ragone-Figueroa} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
+\examiner{} % Your examiner's name, this is not currently used anywhere in the template, print it elsewhere with \examname
+\degree{Licenciada en Astronom\'ia} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
+\author{Mar\'ia Eugenia Ferraro} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
+\addresses{} % Your address, this is not currently used anywhere in the template, print it elsewhere with \addressname
+
+\subject{Astronom\'ia Extragal\'actica} % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
+\keywords{} % Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
+\university{\href{http://www.university.com}{Universidad Nacional de C\'ordoba}} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
+\department{\href{http://department.university.com}{Facultad de Matem\'atica, Astrnom\'ia, F\'isica y Computaci\'on}} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
+\group{\href{http://researchgroup.university.com}} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
+\faculty{\href{http://faculty.university.com}{Facultad de Matem\'atica, Astrnom\'ia, F\'isica y Computaci\'on}} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
+
+\AtBeginDocument{
+\hypersetup{pdftitle=\ttitle} % Set the PDF's title to your title
+\hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
+\hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
+}
+
+
+
+\begin{document}
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+
+\vspace*{-1cm}
+{\scshape\LARGE \univname\par}\vspace{1cm} % University name
+\includegraphics[width=6cm]{Figures/uni.jpg} \\ \medskip % Picture
+\textsc{\Large Tesis de Licenciatura}\\[0.5cm] % Thesis type
+
+
+\HRule \\[0.4cm] % Horizontal line
+{\huge \bfseries \ttitle\par}\vspace{0.4cm} % Thesis title
+\HRule \\[1.5cm] % Horizontal line
+ 
+\begin{minipage}[t]{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Autor:}\\
+\href{http://www.johnsmith.com}{\authorname} % Author name - remove the \href bracket to remove the link
+\end{flushleft}
+\end{minipage}
+\begin{minipage}[t]{0.4\textwidth}
+\begin{flushright} \large
+\emph{Director:} \\
+\href{http://www.jamessmith.com}{\supname} % Supervisor name - remove the \href bracket to remove the link  
+\end{flushright}
+\end{minipage}\\[3cm]
+ 
+\large \textit{Tesis presentada en cumplimiento de los requisitos\\ para el grado de \degreename}\\[0.3cm] % University requirement text
+\textit{en la}\\[0.4cm]
+\deptname\\[2cm] % Research group name and department name
+ 
+\vspace*{-1cm}
+{\large \today}\\[4cm] % Date
+%\includegraphics{Logo} % University/department logo - uncomment to place it
+ 
+\vfill
+\end{center}
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{declaration}
+%\addchaptertocentry{\authorshipname} % Add the declaration to the table of contents
+%\noindent I, \authorname, declare that this thesis titled, \enquote{\ttitle} and the work presented in it are my own. I confirm that:
+
+%\begin{itemize} 
+%\item This work was done wholly or mainly while in candidature for a research degree at this University.
+%\item Where any part of this thesis has previously been submitted for a degree or any other qualification at this University or any other institution, this has been clearly stated.
+%\item Where I have consulted the published work of others, this is always clearly attributed.
+%\item Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
+%\item I have acknowledged all main sources of help.
+%\item Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.\\
+%\end{itemize}
+ 
+%\noindent Signed:\\
+%\rule[0.5em]{25em}{0.5pt} % This prints a line for the signature
+ 
+%\noindent Date:\\
+%\rule[0.5em]{25em}{0.5pt} % This prints a line to write the date
+\end{declaration}
+
+\cleardoublepage
+
+%----------------------------------------------------------------------------------------
+%	QUOTATION PAGE
+%----------------------------------------------------------------------------------------
+
+\vspace*{0.2\textheight}
+
+\noindent\enquote{\itshape Thanks to my solid academic training, today I can write hundreds of words on virtually any topic without possessing a shred of information, which is how I got a good job in journalism.}\bigbreak
+
+\hfill Dave Barry
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{abstract}
+\addchaptertocentry{\abstractname} % Add the abstract to the table of contents
+The Thesis Abstract is written here (and usually kept to just this page). The page is kept centered vertically so can expand into the blank space above the title too\ldots
+\end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+
+\begin{acknowledgements}
+\addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
+The acknowledgments and the people to thank go here, don't forget to include your project advisor\ldots
+\end{acknowledgements}
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+{\hypersetup{allcolors=black}
+\tableofcontents % Prints the main table of contents
+
+\listoffigures % Prints the list of figures
+
+\listoftables % Prints the list of tables
+}
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+
+\begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
+
+\textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere\\
+\textbf{WSF} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or\\
+
+\end{abbreviations}
+
+%----------------------------------------------------------------------------------------
+%	PHYSICAL CONSTANTS/OTHER DEFINITIONS
+%----------------------------------------------------------------------------------------
+
+\begin{constants}{lr@{${}={}$}l} % The list of physical constants is a three column table
+
+% The \SI{}{} command is provided by the siunitx package, see its documentation for instructions on how to use it
+
+Speed of Light & $c_{0}$ & \SI{2.99792458e8}{\meter\per\second} (exact)\\
+%Constant Name & $Symbol$ & $Constant Value$ with units\\
+
+\end{constants}
+
+%----------------------------------------------------------------------------------------
+%	SYMBOLS
+%----------------------------------------------------------------------------------------
+
+\begin{symbols}{lll} % Include a list of Symbols (a three column table)
+
+$a$ & distance & \si{\meter} \\
+$P$ & power & \si{\watt} (\si{\joule\per\second}) \\
+%Symbol & Name & Unit \\
+
+\addlinespace % Gap to separate the Roman symbols from the Greek
+
+$\omega$ & angular frequency & \si{\radian} \\
+
+\end{symbols}
+
+%----------------------------------------------------------------------------------------
+%	DEDICATION
+%----------------------------------------------------------------------------------------
+
+\dedicatory{For/Dedicated to/To my\ldots} 
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{thesis} % Return the page headers back to the "thesis" style
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+% Uncomment the lines as you write the chapters
+\include{Chapters/Chapter1}
+\include{Chapters/Chapter2} 
+\include{Chapters/Chapter3}
+\include{Chapters/Chapter4} 
+\include{Chapters/Chapter5} 
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\appendix % Cue to tell LaTeX that the following "chapters" are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+
+\include{Appendices/AppendixA}
+%\include{Appendices/AppendixB}
+%\include{Appendices/AppendixC}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+%\bibliography{example.bib}%[heading=bibintoc]
+
+\begin{thebibliography}{X}
+   \bibitem[Kravtsov et al.(2014)]{kra14} Kravtsov, A., Vikhlinin, A., \& Meshscheryakov, A.\ 2014, arXiv:1401.7329
+   \bibitem[Benson et al.(2003)]{ben03	} Benson, A.~J., Bower, R.~G., Frenk, C.~S., et al.\ 2003, \apj, 599, 38 
+   \bibitem[Granato et al.(2004)]{gra04} Granato, G.~L., De Zotti, G., Silva, L., Bressan, A., \& Danese, L.\ 2004, \apj, 600, 580 
+   \bibitem[Springel et al.(2005)]{spr05} Springel, V., Di Matteo, T., \& Hernquist, L.\ 2005, \apjl, 620, L79 
+   \bibitem[Bower et al.(2006)]{bow06} Bower, R.~G., Benson, A.~J., Malbon, R., et al.\ 2006, \mnras, 370, 645 
+   \bibitem[Croton et al.(2006)]{cro06} Croton, D.~J., Springel, V., White, S.~D.~M., et al.\ 2006, \mnras, 365, 11 
+   \bibitem[Monaco et al.(2007)]{mon07} Monaco, P., Fontanot, F., \& Taffoni, G.\ 2007, \mnras, 375, 1189 
+   \bibitem[Sijacki et al.(2007)]{sij07} Sijacki, D., Springel, V., Di Matteo, T., \& Hernquist, L.\ 2007, \mnras, 380, 877 
+   \bibitem[Somerville et al.(2008)]{som08} Somerville, R.~S., Hopkins, P.~F., Cox, T.~J., Robertson, B.~E., \& Hernquist, L.\ 2008, \mnras, 391, 481 
+   \bibitem[Fabjan et al.(2010)]{fab10} Fabjan, D., Borgani, S., Tornatore, L., et al.\ 2010, \mnras, 401, 1670 
+   \bibitem[McCarthy et al.(2010)]{mcc10} McCarthy, I.~G., Schaye, J., Ponman, T.~J., et al.\ 2010, \mnras, 406, 822 
+   \bibitem[Martizzi et al.(2012)]{mar12} Martizzi, D., Teyssier, R., Moore, B., \& Wentz, T.\ 2012, \mnras, 422, 3081 
+   \bibitem[Ragone-Figueroa et al.(2013)]{rag13} Ragone-Figueroa, C., Granato, G.~L., Murante, G., Borgani, S., \& Cui, W.\ 2013, \mnras, 436, 1750 
+   \bibitem[Dubois et al.(2013)]{dub13} Dubois, Y., Gavazzi, R., Peirani, S., \& Silk, J.\ 2013, \mnras, 433, 3297 
+   \bibitem[Pillepich et al.(2017)]{pil17} Pillepich, A., Nelson, D., Hernquist, L., et al.\ 2017, arXiv:1707.03406 
+   \bibitem[Bah{\'e} et al.(2017)]{bah17} Bah{\'e}, Y.~M., Barnes, D.~J., Dalla Vecchia, C., et al.\ 2017, \mnras, 470, 4186 
+   \bibitem[Stott et al.(2012)]{sto12} Stott, J.~P., Hickox, R.~C., Edge, A.~C., et al.\ 2012, \mnras, 422, 2213 
+   \bibitem[Whiley et al.(2008)]{whi08} Whiley, I.~M., Arag{\'o}n-Salamanca, A., De Lucia, G., et al.\ 2008, \mnras, 387, 1253 
+   \bibitem[Bellstedt et al.(2016)]{bel16} Bellstedt, S., Lidman, C., Muzzin, A., et al.\ 2016, \mnras, 460, 2862 
+   \bibitem[Haarsma et al.(2010)]{haa10} Haarsma, D.~B., Leisman, L., Donahue, M., et al.\ 2010, \apj, 713, 1037 
+   \bibitem[Brough et al.(2008)]{bro08} Brough, S., Couch, W.~J., Collins, C.~A., et al.\ 2008, \mnras, 385, L103 
+   \bibitem[Popesso et al.(2007)]{pop07} Popesso, P., Biviano, A., B{\"o}hringer, H., \& Romaniello, M.\ 2007, \aap, 464, 451 
+   \bibitem[Lin \& Mohr(2004)]{lin04} Lin, Y.-T., \& Mohr, J.~J.\ 2004, \apj, 617, 879 
+   \bibitem[Mittal et al.(2009)]{mit09} Mittal, R., Hudson, D.~S., Reiprich, T.~H., \& Clarke, T.\ 2009, \aap, 501, 835 
+   \bibitem[Zhang et al.()2016]{zha16} Zhang, Y., Miller, C., McKay, T., et al.\ 2016, \apj, 816, 98
+   \bibitem[Bai et al.(2014)]{bai14} Bai, L., Yee, H.~K.~C., Yan, R., et al.\ 2014, \apj, 789, 134 
+   \bibitem[Lidman et al.(2012)]{lid12} Lidman, C., Suherli, J., Muzzin, A., et al.\ 2012, \mnras, 427, 550 
+   \bibitem[Gonzalez et al.(2013)]{gon13} Gonzalez, A.~H., Sivanandam, S., Zabludoff, A.~I., \& Zaritsky, D.\ 2013, \apj, 778, 14 
+   \bibitem[Thomas et al.(2005)]{tho05} Thomas, D., Maraston, C., Bender, R., \& Mendes de Oliveira, C.\ 2005, \apj, 621, 673  
+   \bibitem[Jimenez et al.(2007)]{jim07} Jimenez, R., Bernardi, M., Haiman, Z., Panter, B., \& Heavens, A.~F.\ 2007, \apj, 669, 947 
+   \bibitem[De Lucia \& Blaizot(2007)]{del07} De Lucia, G., \& Blaizot, J.\ 2007, \mnras, 375, 2 
+   \bibitem[White(1976)]{whi76} White, S.~D.~M.\ 1976, \mnras, 174, 19 
+   \bibitem[Ostriker \& Hausman(1977)]{ost77} Ostriker, J.~P., \& Hausman, M.~A.\ 1977, \apjl, 217, L125 
+   \bibitem[Lin et al.(2010)]{lin10} Lin, Y.-T., Ostriker, J.~P., \& Miller, C.~J.\ 2010, \apj, 715, 1486 
+   \bibitem[Tremaine \& Richstone(1977)]{tre77} Tremaine, S.~D., \& Richstone, D.~O.\ 1977, \apj, 212, 311 
+   \bibitem[Naab et al.(2009)]{naa09} Naab, T., Johansson, P.~H., \& Ostriker, J.~P.\ 2009, \apjl, 699, L178 
+   \bibitem[Oser et al.(2010)]{ose10} Oser, L., Ostriker, J.~P., Naab, T., Johansson, P.~H., \& Burkert, A.\ 2010, \apj, 725, 2312 
+   \bibitem[Laporte et al.(2013)]{lap13} Laporte, C.~F.~P., White, S.~D.~M., Naab, T., \& Gao, L.\ 2013, \mnras, 435, 901 
+   \bibitem[Cowie \& Binney(1977)]{cow77} Cowie, L.~L., \& Binney, J.\ 1977, \apj, 215, 723 
+   \bibitem[Fabian \& Nulsen(1977)]{fab77} Fabian, A.~C., \& Nulsen, P.~E.~J.\ 1977, \mnras, 180, 479 
+   \bibitem[Stott et al.(2010)]{sto10} Stott, J.~P., Collins, C.~A., Sahl{\'e}n, M., et al.\ 2010, \apj, 718, 23 
+   \bibitem[Collins et al.(2009)]{col09} Collins, C.~A., Stott, J.~P., Hilton, M., et al.\ 2009, \nat, 458, 603 
+   \bibitem[Aragon-Salamanca et al.(1998)]{ara98} Aragon-Salamanca, A., Baugh, C.~M., \& Kauffmann, G.\ 1998, \mnras, 297, 427 
+   \bibitem[Burke et al.(2000)]{bur00} Burke, D.~J., Collins, C.~A., \& Mann, R.~G.\ 2000, \apjl, 532, L105 
+   \bibitem[Groenewald et al.(2017)]{gro17} Groenewald, D.~N., Skelton, R.~E., Gilbank, D.~G., \& Loubser, S.~I.\ 2017, \mnras, 467, 4101 
+   \bibitem[Webb et al.(2015)]{web15} Webb, T.~M.~A., Muzzin, A., Noble, A., et al.\ 2015, \apj, 814, 96 
+  
+  
+  
+\end{thebibliography}
+
+  
+%----------------------------------------------------------------------------------------
+
+\end{document}  

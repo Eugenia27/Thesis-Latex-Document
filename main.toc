@@ -1,27 +1,39 @@
-\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
-\select@language {english}
-\contentsline {chapter}{Abstract}{vii}{section*.2}
-\contentsline {chapter}{Acknowledgements}{ix}{section*.3}
-\contentsline {chapter}{\numberline {1}INTRODUCCI\'ON}{1}{chapter.14}
-\contentsline {chapter}{\numberline {2}INTRODUCCI\'ON A LAS BCGs}{3}{chapter.15}
-\contentsline {section}{\numberline {2.1}El Universo. Pasado-Presente}{3}{section.16}
-\contentsline {section}{\numberline {2.2}Zoo Gal\'actico}{3}{section.17}
-\contentsline {section}{\numberline {2.3}Relaci\'on Morfolog\'ia-Densidad}{3}{section.18}
-\contentsline {section}{\numberline {2.4}C\'umulos de Galaxias}{3}{section.19}
-\contentsline {section}{\numberline {2.5}Las BCGs y sus Propiedades}{3}{section.20}
-\contentsline {section}{\numberline {2.6}Formaci\'on y Evoluci\'on de las BCGs}{3}{section.21}
-\contentsline {chapter}{\numberline {3}HERRAMIENTAS Y M\'ETODOS UTILIZADOS}{5}{chapter.22}
-\contentsline {section}{\numberline {3.1}Welcome and Thank You}{5}{section.23}
-\contentsline {section}{\numberline {3.2}Learning \LaTeX {}}{5}{section.24}
-\contentsline {chapter}{\numberline {4}RESULTADOS}{7}{chapter.25}
-\contentsline {section}{\numberline {4.1}Importancia del AGN}{7}{section.26}
-\contentsline {section}{\numberline {4.2}Evoluci\'on Masas}{7}{section.29}
-\contentsline {section}{\numberline {4.3}Evoluci\'on Taman\~no}{7}{section.37}
-\contentsline {section}{\numberline {4.4}Influencia del Polvo}{7}{section.38}
-\contentsline {section}{\numberline {4.5}Estabilidad a Mayor Resoluci\'on}{7}{section.39}
-\contentsline {chapter}{\numberline {5}CONCLUSIONES}{17}{chapter.40}
-\contentsline {section}{\numberline {5.1}Welcome and Thank You}{17}{section.41}
-\contentsline {section}{\numberline {5.2}Learning \LaTeX {}}{17}{section.42}
-\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{19}{appendix.43}
-\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{19}{section.44}
+\select@language {spanish}
+\contentsline {chapter}{Resumen}{\es@scroman {vii}}{section*.2}
+\contentsline {chapter}{Acknowledgements}{\es@scroman {ix}}{section*.3}
+\contentsline {chapter}{\numberline {1}Resumen}{1}{chapter.15}
+\contentsline {chapter}{\numberline {2}Introducci\'on Te\'orica}{3}{chapter.16}
+\contentsline {section}{\numberline {2.1}Camino a las BCGs, una saga de m\'as de miles de millones de a\~nos...}{3}{section.17}
+\contentsline {subsection}{\numberline {2.1.1}El Universo, pasado y presente}{3}{subsection.18}
+\contentsline {subsection}{\numberline {2.1.2}Zoo Gal\'actico}{4}{subsection.19}
+\contentsline {subsection}{\numberline {2.1.3}Relaci\'on Morfolog\'ia-Densidad}{5}{subsection.20}
+\contentsline {subsection}{\numberline {2.1.4}C\'umulos de Galaxias}{5}{subsection.21}
+\contentsline {section}{\numberline {2.2}BCGs en el Universo Local}{6}{section.22}
+\contentsline {subsection}{\numberline {2.2.1}Luminosidad}{7}{subsection.23}
+\contentsline {subsection}{\numberline {2.2.2}Morfolog\'ia}{7}{subsection.24}
+\contentsline {subsection}{\numberline {2.2.3}Estructura}{7}{subsection.25}
+\contentsline {section}{\numberline {2.3}Medici\'on de la masa de las BCGs}{8}{section.27}
+\contentsline {section}{\numberline {2.4}Perfiles de brillo}{10}{section.28}
+\contentsline {subsection}{\numberline {2.4.1}Relaci\'on de Kormendy}{10}{subsection.29}
+\contentsline {subsection}{\numberline {2.4.2}Par\'ametros estructurales vs. MasaBCG}{10}{subsection.30}
+\contentsline {section}{\numberline {2.5}Historia de Formaci\'on y Evoluci\'on}{10}{section.31}
+\contentsline {chapter}{\numberline {3}Herramientas utilizadas y M\'etodos}{15}{chapter.36}
+\contentsline {section}{\numberline {3.1}Los C\'umulos Simulados y las Muestras}{15}{section.37}
+\contentsline {section}{\numberline {3.2}Identificaci\'on de las BCGs}{16}{section.39}
+\contentsline {section}{\numberline {3.3}Medici\'on de la masa de las BCGs}{17}{section.40}
+\contentsline {section}{\numberline {3.4}Grasil 3D.... }{17}{section.42}
+\contentsline {chapter}{\numberline {4}Resultados}{19}{chapter.43}
+\contentsline {section}{\numberline {4.1}La importancia del {\it AGN}~ en los modelos de formaci\'on de galaxias}{19}{section.44}
+\contentsline {section}{\numberline {4.2}Masas de la {\it BCG}~ en funci\'on de la apertura}{23}{section.48}
+\contentsline {section}{\numberline {4.3}{\it BCGs}~ a z=0}{25}{section.51}
+\contentsline {section}{\numberline {4.4}Relaciones Masa {\it BCG}-Masa C\'umulo a z=0}{28}{section.56}
+\contentsline {section}{\numberline {4.5}Masas de las {\it BCGs}~ a distintos z}{32}{section.65}
+\contentsline {section}{\numberline {4.6}Evoluci\'on en Masa}{34}{section.68}
+\contentsline {section}{\numberline {4.7}Evoluci\'on en Perfiles}{39}{section.75}
+\contentsline {section}{\numberline {4.8}Edades y Metalicidades}{42}{section.78}
+\contentsline {section}{\numberline {4.9}influencia del polvo. solo a z=3 para algun dusty case}{43}{section.83}
+\contentsline {section}{\numberline {4.10}Estabilidad a Resoluciones m\'as Altas}{46}{section.89}
+\contentsline {section}{\numberline {4.11}relaciones de escala}{49}{section.93}
+\contentsline {chapter}{\numberline {5}Conclusiones}{51}{chapter.95}
+\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{53}{appendix.96}
+\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{53}{section.97}

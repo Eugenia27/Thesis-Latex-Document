@@ -79,8 +79,10 @@ headsepline, % Uncomment to get a line under the header
 \def\rum     {R$_{1/2}$}
 \def\z       {\textit{redshifts}}
 \def\icl     {{\it ICL}}
-\def\mdiez     {M$_{0.1R_{500}}$}
-
+\def\mdiez   {M$_{0.1R_{500}}$}
+\def\mtre    {M$_{R<30kpc}$}
+\def\mcin    {M$_{R<50kpc}$}
+\def\mset    {M$_{R<70kpc}$}
 
 %Journals
 \def\apj {ApJ}
@@ -335,53 +337,59 @@ $\omega$ & angular frequency & \si{\radian} \\
 %\bibliography{example.bib}%[heading=bibintoc]
 
 \begin{thebibliography}{X}
-   \bibitem[Kravtsov et al.(2014)]{kra14} Kravtsov, A., Vikhlinin, A., \& Meshscheryakov, A.\ 2014, arXiv:1401.7329
+   \bibitem[Ascaso et al.(2011)]{asc11} Ascaso, B., Aguerri, J.~A.~L., Varela, J., et al.\ 2011, \apj, 726, 69 
+   \bibitem[Aragon-Salamanca et al.(1998)]{ara98} Aragon-Salamanca, A., Baugh, C.~M., \& Kauffmann, G.\ 1998, \mnras, 297, 427 
+   \bibitem[Bah{\'e} et al.(2017)]{bah17} Bah{\'e}, Y.~M., Barnes, D.~J., Dalla Vecchia, C., et al.\ 2017, \mnras, 470, 4186 
+   \bibitem[Bai et al.(2014)]{bai14} Bai, L., Yee, H.~K.~C., Yan, R., et al.\ 2014, \apj, 789, 134 
+   \bibitem[Bellstedt et al.(2016)]{bel16} Bellstedt, S., Lidman, C., Muzzin, A., et al.\ 2016, \mnras, 460, 2862 
    \bibitem[Benson et al.(2003)]{ben03	} Benson, A.~J., Bower, R.~G., Frenk, C.~S., et al.\ 2003, \apj, 599, 38 
-   \bibitem[Granato et al.(2004)]{gra04} Granato, G.~L., De Zotti, G., Silva, L., Bressan, A., \& Danese, L.\ 2004, \apj, 600, 580 
-   \bibitem[Springel et al.(2005)]{spr05} Springel, V., Di Matteo, T., \& Hernquist, L.\ 2005, \apjl, 620, L79 
    \bibitem[Bower et al.(2006)]{bow06} Bower, R.~G., Benson, A.~J., Malbon, R., et al.\ 2006, \mnras, 370, 645 
+   \bibitem[Brough et al.(2008)]{bro08} Brough, S., Couch, W.~J., Collins, C.~A., et al.\ 2008, \mnras, 385, L103 
+   \bibitem[Burke et al.(2000)]{bur00} Burke, D.~J., Collins, C.~A., \& Mann, R.~G.\ 2000, \apjl, 532, L105 
+   \bibitem[Burke et al.(2013)]{bur13} Burke, K.~M., Buzzatti, A., Chang, N., et al.\ 2013, arXiv:1312.5003 
+   \bibitem[Collins et al.(2009)]{col09} Collins, C.~A., Stott, J.~P., Hilton, M., et al.\ 2009, \nat, 458, 603 
+   \bibitem[Cowie \& Binney(1977)]{cow77} Cowie, L.~L., \& Binney, J.\ 1977, \apj, 215, 723 
    \bibitem[Croton et al.(2006)]{cro06} Croton, D.~J., Springel, V., White, S.~D.~M., et al.\ 2006, \mnras, 365, 11 
+   \bibitem[De Lucia \& Blaizot(2007)]{del07} De Lucia, G., \& Blaizot, J.\ 2007, \mnras, 375, 2 
+   \bibitem[Dubois et al.(2013)]{dub13} Dubois, Y., Gavazzi, R., Peirani, S., \& Silk, J.\ 2013, \mnras, 433, 3297 
+   \bibitem[Edwards \& Patton(2012)]{edw12} Edwards, L.~O.~V., \& Patton, D.~R.\ 2012, \mnras, 425, 287 
+   \bibitem[Edwards et al.(2016)]{edw16} Edwards, L.~O.~V., Alpert, H.~S., Trierweiler, I.~L., Abraham, T., \& Beizer, V.~G.\ 2016, \mnras, 461, 230 
+   \bibitem[Fabian \& Nulsen(1977)]{fab77} Fabian, A.~C., \& Nulsen, P.~E.~J.\ 1977, \mnras, 180, 479 
+   \bibitem[Fabjan et al.(2010)]{fab10} Fabjan, D., Borgani, S., Tornatore, L., et al.\ 2010, \mnras, 401, 1670 
+   \bibitem[Gonzalez et al.(2013)]{gon13} Gonzalez, A.~H., Sivanandam, S., Zabludoff, A.~I., \& Zaritsky, D.\ 2013, \apj, 778, 14 
+   \bibitem[Granato et al.(2004)]{gra04} Granato, G.~L., De Zotti, G., Silva, L., Bressan, A., \& Danese, L.\ 2004, \apj, 600, 580 
+   \bibitem[Groenewald et al.(2017)]{gro17} Groenewald, D.~N., Skelton, R.~E., Gilbank, D.~G., \& Loubser, S.~I.\ 2017, \mnras, 467, 4101 
+   \bibitem[Haarsma et al.(2010)]{haa10} Haarsma, D.~B., Leisman, L., Donahue, M., et al.\ 2010, \apj, 713, 1037 
+   \bibitem[Jimenez et al.(2007)]{jim07} Jimenez, R., Bernardi, M., Haiman, Z., Panter, B., \& Heavens, A.~F.\ 2007, \apj, 669, 947 
+   \bibitem[Jimmy et al.(2013)]{jim13} Jimmy, Tran, K.-V., Brough, S., et al.\ 2013, \apj, 778, 171 
+   \bibitem[Kravtsov et al.(2014)]{kra14} Kravtsov, A., Vikhlinin, A., \& Meshscheryakov, A.\ 2014, arXiv:1401.7329
+   \bibitem[Laporte et al.(2013)]{lap13} Laporte, C.~F.~P., White, S.~D.~M., Naab, T., \& Gao, L.\ 2013, \mnras, 435, 901 
+   \bibitem[Lidman et al.(2012)]{lid12} Lidman, C., Suherli, J., Muzzin, A., et al.\ 2012, \mnras, 427, 550 
+   \bibitem[Lin \& Mohr(2004)]{lin04} Lin, Y.-T., \& Mohr, J.~J.\ 2004, \apj, 617, 879 
+   \bibitem[Lin et al.(2010)]{lin10} Lin, Y.-T., Ostriker, J.~P., \& Miller, C.~J.\ 2010, \apj, 715, 1486 
+   \bibitem[Loubser \& S{\'a}nchez-Bl{\'a}zquez(2012)]{lou12} Loubser, S.~I., \& S{\'a}nchez-Bl{\'a}zquez, P.\ 2012, \mnras, 425, 841 
+   \bibitem[Martizzi et al.(2012)]{mar12} Martizzi, D., Teyssier, R., Moore, B., \& Wentz, T.\ 2012, \mnras, 422, 3081 
+   \bibitem[McCarthy et al.(2010)]{mcc10} McCarthy, I.~G., Schaye, J., Ponman, T.~J., et al.\ 2010, \mnras, 406, 822 
+   \bibitem[Mittal et al.(2009)]{mit09} Mittal, R., Hudson, D.~S., Reiprich, T.~H., \& Clarke, T.\ 2009, \aap, 501, 835 
    \bibitem[Monaco et al.(2007)]{mon07} Monaco, P., Fontanot, F., \& Taffoni, G.\ 2007, \mnras, 375, 1189 
+   \bibitem[Naab et al.(2009)]{naa09} Naab, T., Johansson, P.~H., \& Ostriker, J.~P.\ 2009, \apjl, 699, L178 
+   \bibitem[Oliva-Altamirano et al.(2015)]{oli15} Oliva-Altamirano, P., Brough, S., Jimmy, T., Kim-Vy, et al.\ 2015, \mnras, 449, 3347 
+   \bibitem[Oser et al.(2010)]{ose10} Oser, L., Ostriker, J.~P., Naab, T., Johansson, P.~H., \& Burkert, A.\ 2010, \apj, 725, 2312 
+   \bibitem[Ostriker \& Hausman(1977)]{ost77} Ostriker, J.~P., \& Hausman, M.~A.\ 1977, \apjl, 217, L125 
+   \bibitem[Pillepich et al.(2017)]{pil17} Pillepich, A., Nelson, D., Hernquist, L., et al.\ 2017, arXiv:1707.03406 
+   \bibitem[Popesso et al.(2007)]{pop07} Popesso, P., Biviano, A., B{\"o}hringer, H., \& Romaniello, M.\ 2007, \aap, 464, 451 
+   \bibitem[Ragone-Figueroa et al.(2013)]{rag13} Ragone-Figueroa, C., Granato, G.~L., Murante, G., Borgani, S., \& Cui, W.\ 2013, \mnras, 436, 1750 
    \bibitem[Sijacki et al.(2007)]{sij07} Sijacki, D., Springel, V., Di Matteo, T., \& Hernquist, L.\ 2007, \mnras, 380, 877 
    \bibitem[Somerville et al.(2008)]{som08} Somerville, R.~S., Hopkins, P.~F., Cox, T.~J., Robertson, B.~E., \& Hernquist, L.\ 2008, \mnras, 391, 481 
-   \bibitem[Fabjan et al.(2010)]{fab10} Fabjan, D., Borgani, S., Tornatore, L., et al.\ 2010, \mnras, 401, 1670 
-   \bibitem[McCarthy et al.(2010)]{mcc10} McCarthy, I.~G., Schaye, J., Ponman, T.~J., et al.\ 2010, \mnras, 406, 822 
-   \bibitem[Martizzi et al.(2012)]{mar12} Martizzi, D., Teyssier, R., Moore, B., \& Wentz, T.\ 2012, \mnras, 422, 3081 
-   \bibitem[Ragone-Figueroa et al.(2013)]{rag13} Ragone-Figueroa, C., Granato, G.~L., Murante, G., Borgani, S., \& Cui, W.\ 2013, \mnras, 436, 1750 
-   \bibitem[Dubois et al.(2013)]{dub13} Dubois, Y., Gavazzi, R., Peirani, S., \& Silk, J.\ 2013, \mnras, 433, 3297 
-   \bibitem[Pillepich et al.(2017)]{pil17} Pillepich, A., Nelson, D., Hernquist, L., et al.\ 2017, arXiv:1707.03406 
-   \bibitem[Bah{\'e} et al.(2017)]{bah17} Bah{\'e}, Y.~M., Barnes, D.~J., Dalla Vecchia, C., et al.\ 2017, \mnras, 470, 4186 
-   \bibitem[Stott et al.(2012)]{sto12} Stott, J.~P., Hickox, R.~C., Edge, A.~C., et al.\ 2012, \mnras, 422, 2213 
-   \bibitem[Whiley et al.(2008)]{whi08} Whiley, I.~M., Arag{\'o}n-Salamanca, A., De Lucia, G., et al.\ 2008, \mnras, 387, 1253 
-   \bibitem[Bellstedt et al.(2016)]{bel16} Bellstedt, S., Lidman, C., Muzzin, A., et al.\ 2016, \mnras, 460, 2862 
-   \bibitem[Haarsma et al.(2010)]{haa10} Haarsma, D.~B., Leisman, L., Donahue, M., et al.\ 2010, \apj, 713, 1037 
-   \bibitem[Brough et al.(2008)]{bro08} Brough, S., Couch, W.~J., Collins, C.~A., et al.\ 2008, \mnras, 385, L103 
-   \bibitem[Popesso et al.(2007)]{pop07} Popesso, P., Biviano, A., B{\"o}hringer, H., \& Romaniello, M.\ 2007, \aap, 464, 451 
-   \bibitem[Lin \& Mohr(2004)]{lin04} Lin, Y.-T., \& Mohr, J.~J.\ 2004, \apj, 617, 879 
-   \bibitem[Mittal et al.(2009)]{mit09} Mittal, R., Hudson, D.~S., Reiprich, T.~H., \& Clarke, T.\ 2009, \aap, 501, 835 
-   \bibitem[Zhang et al.()2016]{zha16} Zhang, Y., Miller, C., McKay, T., et al.\ 2016, \apj, 816, 98
-   \bibitem[Bai et al.(2014)]{bai14} Bai, L., Yee, H.~K.~C., Yan, R., et al.\ 2014, \apj, 789, 134 
-   \bibitem[Lidman et al.(2012)]{lid12} Lidman, C., Suherli, J., Muzzin, A., et al.\ 2012, \mnras, 427, 550 
-   \bibitem[Gonzalez et al.(2013)]{gon13} Gonzalez, A.~H., Sivanandam, S., Zabludoff, A.~I., \& Zaritsky, D.\ 2013, \apj, 778, 14 
-   \bibitem[Thomas et al.(2005)]{tho05} Thomas, D., Maraston, C., Bender, R., \& Mendes de Oliveira, C.\ 2005, \apj, 621, 673  
-   \bibitem[Jimenez et al.(2007)]{jim07} Jimenez, R., Bernardi, M., Haiman, Z., Panter, B., \& Heavens, A.~F.\ 2007, \apj, 669, 947 
-   \bibitem[De Lucia \& Blaizot(2007)]{del07} De Lucia, G., \& Blaizot, J.\ 2007, \mnras, 375, 2 
-   \bibitem[White(1976)]{whi76} White, S.~D.~M.\ 1976, \mnras, 174, 19 
-   \bibitem[Ostriker \& Hausman(1977)]{ost77} Ostriker, J.~P., \& Hausman, M.~A.\ 1977, \apjl, 217, L125 
-   \bibitem[Lin et al.(2010)]{lin10} Lin, Y.-T., Ostriker, J.~P., \& Miller, C.~J.\ 2010, \apj, 715, 1486 
-   \bibitem[Tremaine \& Richstone(1977)]{tre77} Tremaine, S.~D., \& Richstone, D.~O.\ 1977, \apj, 212, 311 
-   \bibitem[Naab et al.(2009)]{naa09} Naab, T., Johansson, P.~H., \& Ostriker, J.~P.\ 2009, \apjl, 699, L178 
-   \bibitem[Oser et al.(2010)]{ose10} Oser, L., Ostriker, J.~P., Naab, T., Johansson, P.~H., \& Burkert, A.\ 2010, \apj, 725, 2312 
-   \bibitem[Laporte et al.(2013)]{lap13} Laporte, C.~F.~P., White, S.~D.~M., Naab, T., \& Gao, L.\ 2013, \mnras, 435, 901 
-   \bibitem[Cowie \& Binney(1977)]{cow77} Cowie, L.~L., \& Binney, J.\ 1977, \apj, 215, 723 
-   \bibitem[Fabian \& Nulsen(1977)]{fab77} Fabian, A.~C., \& Nulsen, P.~E.~J.\ 1977, \mnras, 180, 479 
+   \bibitem[Springel et al.(2005)]{spr05} Springel, V., Di Matteo, T., \& Hernquist, L.\ 2005, \apjl, 620, L79 
    \bibitem[Stott et al.(2010)]{sto10} Stott, J.~P., Collins, C.~A., Sahl{\'e}n, M., et al.\ 2010, \apj, 718, 23 
-   \bibitem[Collins et al.(2009)]{col09} Collins, C.~A., Stott, J.~P., Hilton, M., et al.\ 2009, \nat, 458, 603 
-   \bibitem[Aragon-Salamanca et al.(1998)]{ara98} Aragon-Salamanca, A., Baugh, C.~M., \& Kauffmann, G.\ 1998, \mnras, 297, 427 
-   \bibitem[Burke et al.(2000)]{bur00} Burke, D.~J., Collins, C.~A., \& Mann, R.~G.\ 2000, \apjl, 532, L105 
-   \bibitem[Groenewald et al.(2017)]{gro17} Groenewald, D.~N., Skelton, R.~E., Gilbank, D.~G., \& Loubser, S.~I.\ 2017, \mnras, 467, 4101 
+   \bibitem[Stott et al.(2012)]{sto12} Stott, J.~P., Hickox, R.~C., Edge, A.~C., et al.\ 2012, \mnras, 422, 2213 
+   \bibitem[Thomas et al.(2005)]{tho05} Thomas, D., Maraston, C., Bender, R., \& Mendes de Oliveira, C.\ 2005, \apj, 621, 673  
+   \bibitem[Tremaine \& Richstone(1977)]{tre77} Tremaine, S.~D., \& Richstone, D.~O.\ 1977, \apj, 212, 311 
    \bibitem[Webb et al.(2015)]{web15} Webb, T.~M.~A., Muzzin, A., Noble, A., et al.\ 2015, \apj, 814, 96 
-  
+   \bibitem[Whiley et al.(2008)]{whi08} Whiley, I.~M., Arag{\'o}n-Salamanca, A., De Lucia, G., et al.\ 2008, \mnras, 387, 1253 
+   \bibitem[White(1976)]{whi76} White, S.~D.~M.\ 1976, \mnras, 174, 19 
+   \bibitem[Zhang et al.()2016]{zha16} Zhang, Y., Miller, C., McKay, T., et al.\ 2016, \apj, 816, 98
   
   
 \end{thebibliography}

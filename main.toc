@@ -29,11 +29,11 @@
 \contentsline {section}{\numberline {4.4}Relaciones Masa {\it BCG}-Masa C\'umulo a z=0}{28}{section.56}
 \contentsline {section}{\numberline {4.5}Masas de las {\it BCGs}~ a distintos z}{32}{section.65}
 \contentsline {section}{\numberline {4.6}Evoluci\'on en Masa}{34}{section.68}
-\contentsline {section}{\numberline {4.7}Evoluci\'on en Perfiles}{39}{section.75}
-\contentsline {section}{\numberline {4.8}Edades y Metalicidades}{42}{section.78}
-\contentsline {section}{\numberline {4.9}influencia del polvo. solo a z=3 para algun dusty case}{43}{section.83}
-\contentsline {section}{\numberline {4.10}Estabilidad a Resoluciones m\'as Altas}{46}{section.89}
-\contentsline {section}{\numberline {4.11}relaciones de escala}{49}{section.93}
-\contentsline {chapter}{\numberline {5}Conclusiones}{51}{chapter.95}
-\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{53}{appendix.96}
-\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{53}{section.97}
+\contentsline {section}{\numberline {4.7}Evoluci\'on en Perfiles}{40}{section.79}
+\contentsline {section}{\numberline {4.8}Edades y Metalicidades}{43}{section.82}
+\contentsline {section}{\numberline {4.9}influencia del polvo. solo a z=3 para algun dusty case}{45}{section.87}
+\contentsline {section}{\numberline {4.10}Estabilidad a Resoluciones m\'as Altas}{49}{section.93}
+\contentsline {section}{\numberline {4.11}relaciones de escala}{52}{section.97}
+\contentsline {chapter}{\numberline {5}Conclusiones}{53}{chapter.99}
+\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{55}{appendix.100}
+\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{55}{section.101}

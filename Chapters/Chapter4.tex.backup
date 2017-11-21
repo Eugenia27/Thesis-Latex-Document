@@ -547,6 +547,7 @@ with redshift out to $z\sim 0.8$ (edge 1991; collins $\&$ mann 1998; burke, coll
 whiley et al. 2008).
 
 \section{Evoluci\'on en Masa}
+\label{sec:evolmasa}
 Si bien en la secci\'on \ref{sec:tformyevol} se introdujeron
 los procesos que hoy se creen pilares para la formaci\'on
 y evoluci\'on de las \bcgs~ y 
@@ -596,16 +597,44 @@ esto es, se escogen las que se hallan en los c\'umulos m\'as masivos, de todos m
 no necesariamente son las progenitoras de la \bcgs~ a $z=0$.
 Las figuras \ref{fig:evolmbcg} y \ref{fig:evolm10} exponen la evoluci\'on de las masas \mvc~ y \mdiez~ respectivamente,
 en ambas es notable un crecimiento continuo de las medianas de los valores
-obtenidos para cada \textit{redshift}. En el caso de la muestra \cmay, los factores de crecimiento de \mvc~ entre
-los intervalos de \z~ $3-2$, $2-1$ y $1-0$ son, $2.24$, $2.23$ y $2.41$ y para la \mdiez, $2.09$, $3.16$ y $3.23$ respectivamente.
-Los de la muestra \cmen~ son, $2.95$, $1.45$ y $1.86$ para la \mvc~ y $1.66$, $2.24$, $2.82$ para la \mdiez.
-Analizando los resultados de la muestra \cmay, se ve que, en lo que respecta a la masa de la \bcg~ dada por \mvc,
-el factor de crecimiento entre \z~ consecutivos se mantiene aproximadamente constante y su valor 
-se halla entre los encontrados en la literatura, expuestos m\'as arriba. Esto no sucede para la masa \mdiez,
-cuyos factores crecen de un \textit{redshift} a otro, lo cual es esperable para un l\'imite que crece junto
-con el crecimiento del c\'umulo.
+obtenidos para cada \textit{redshift} (tabla \ref{tab:medianas}).
+Analizando los resultados (tabla \ref{tab:factoresdc}), se observa respecto
+a la masa de la \bcg~ dada por \mvc~ que
+el factor de crecimiento entre \z~ consecutivos
+se mantiene aproximadamente constante para
+la muestra \cmay~ y su valor 
+se halla entre los encontrados en la literatura,
+$\sim2$, mientras que en la muestra 
+\cmen~ fluct\'ua entre $1.5$ y $3$.
+En cambio para la masa \mdiez,
+los factores crecen de un \textit{redshift} 
+a otro, lo cual es esperable para un l\'imite que depende de
+la evoluc\'on del radio virial de un c\'umulo.
 
-
+Las figuras \ref{fig:evolr24} y \ref{fig:evolrum} 
+muestran c\'omo han evolucionado
+los tama\~nos y concentraciones respectivamente.
+Comparando las medianas de \rvc~ con \rum~ para cada
+\textit{redshift} (tabla \ref{tab:medianas}), la mitad de la masa est\'a contenida dentro
+de un 16/29/33/40 $\%$ del
+tama\~no de la galaxia, a z = 3, 2, 1 y 0 respectivamente, para
+la muestra \cmay~ y un 23/23/34/42 $\%$ para la muestra \cmen.
+Estos porcentajes hacen notar que la masa a altos \textit{redshifts}
+estaba muy concentrada y con el transcurso del tiempo
+esa propiedad se ha ido modificando, lo cual
+es esperable para el crecimiento jer\'arquico de las
+estructuras. Si bien en la literatura se establece
+que el tama\~no, caracterizado por el radio efectivo,
+se cuadruplica desde z=1 al presente, en este trabajo
+ello no sucede (tabla \ref{tab:factoresdc}).
+La figura \ref{fig:factores},
+muestra los factores de crecimiento desde z=1 a z=0, tanto de la masa
+de la \bcg~ como de \rum, pero s\'olo para aquellas \bcgs que sabemos
+sus progenitores a z=1 se hallan en el c\'umulo
+m\'as masivo. Los factores esperados son
+2 y 4 respectivamente, mientras que en el presente
+trabajo los valores medios obtenidos son $\sim2$, $\sim1.5$
+respectivamente.
 
 \begin{figure}[H]
  \centering
@@ -639,34 +668,177 @@ que la regi\'on rayada est\'a delimitada por el valor m\'inimo y m\'aximo del z 
 \label{fig:evolrum}
 \end{figure}
 
-
-\begin{figure}[H]
- \centering
- \includegraphics[height=18cm, width=14cm]{../al_final/LR/evolucion/simulacion/evolucion.pdf}
-\caption{Evoluci\'on desde $z=3$ a $z=0$, de la masa proyectada (derecha, l\'inea discontinua) y no proyectada (izquierda, l\'inea continua), contenida dentro de aperturas de radio R=30kpc
-(arriba), R=50kpc (centro) y R=70kpc (abajo). En todos lo casos, los puntos representan a la mediana (considerando todas las \bcgs~ de los c\'umulos principales) para un dado z,
-mientras que la regiones rayadas est\'an delimitadas por los valores m\'aximo y m\'inimo de cada z.}
-\label{fig:evosim}
-\end{figure}
-
-
-
-
 \begin{figure}[H]
  \centering
  %\includegraphics[height=7cm, width=7cm]{../al_final/lr/evolucion/histogramas/cocoientesmr24.pdf}
- \includegraphics[height=8cm, width=9cm]{../al_final/LR/evolucion/histogramas/cocoientesmr1medio.pdf}
+ \includegraphics[height=8cm, width=8cm]{../al_final/LR/evolucion/histogramas/bcocoientesmr1medio.pdf}
  %\\
  %\includegraphics[height=7cm, width=7cm]{../al_final/lr/evolucion/histogramas/cocoientesm30r1medio}
  %\includegraphics[height=7cm, width=7cm]{../al_final/lr/evolucion/histogramas/cocoientesm50r1medio}
-\caption{Distribuciones del factor de crecimiento desde $z=2$ a $z=0$ para las \bcgs~ de los c\'umulos principales. Histograma con rayas diagonales: factores de creciemiento del tama\~no \rum.
+\caption{Distribuciones del factor de crecimiento desde $z=1$ a $z=0$ 
+para las \bcgs~ de los c\'umulos principales. Histograma con rayas diagonales: factores de creciemiento del tama\~no \rum.
 Histograma vac\'io: factores de crecimiento de la masa \mvc.}
 \label{fig:factores}
 \end{figure}
 
 
+
+\begin{table}[H]
+\caption{Evoluci\'on desde $z=3$ a $z=0$,
+de las masas \mvc~ y \mdiez~ [$\times10^{12}$ M$_{\odot}$],
+y los radios \rvc~ y \rum~ [kpcs].}\label{tab:medianas}
+\centering
+\begin{tabular}{c|c c c c| c c c c}
+\hline
+ & \multicolumn{4}{c|}{\cmay} &\multicolumn{4}{c}{\cmen}\\
+\hline
+z&\mvc&\mdiez&\rvc&\rum &\mvc&\mdiez&\rvc&\rum \\
+\hline
+3& 0.2418 &0.1356 & 54.40  & 8.55   & 0.1047 & 0.0908 & 26.52 & 6.06  \\
+2& 0.5594 &0.2757 & 100.50 & 28.66  & 0.2900 & 0.1625 & 59.05 & 13.53 \\
+1& 1.2617 &0.8731 & 107.22 & 35.42  & 0.4556 & 0.3518 & 61.75 & 20.81 \\
+0& 2.8916 &2.7857 & 127.35 & 50.33  & 0.8325 & 1.0161 & 68.11 & 28.53 \\
+
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\caption{Factores de crecimiento}\label{tab:factoresdc}
+\centering
+\begin{tabular}{c|c c c c| c c c c}
+\hline
+ & \multicolumn{4}{c|}{\cmay} &\multicolumn{4}{c}{\cmen}\\
+\hline
+$\Delta z$ & $f_\mvc$ & $f_\mdiez$ & $f_\rvc$ & $f_\rum$ & $f_\mvc$ & $f_\mdiez$ & $f_\rvc$ & $f_\rum$ \\
+\hline
+$3-2$& 2.31 & 2.03 & 1.85 & 3.35 & 2.77 & 1.79 & 2.23 & 2.23\\
+$2-1$& 2.26 & 3.17 & 1.07 & 1.24 & 1.57 & 2.17 & 1.05 & 1.54\\
+$1-0$& 2.29 & 3.19 & 1.19 & 1.42 & 1.83 & 2.89 & 1.10 & 1.37\\
+\end{tabular}
+\end{table}
+
+Tambi\'en podemos estudiar c\'omo los distintos procesos involucrados
+en la evoluci\'on de las \bcgs, modifican las masas contenidas dentro 
+de aperturas fijas, para ello, en la figura \ref{fig:evosim} se muestra
+la evoluci\'on de tales masas, dentro de aperturas de radios 30, 50 y 70 kpcs,
+proyectadas (derecha) y no proyectdas (izquierda), esto \'ultimo, para analizar
+la implicancia que tiene la proyecci\'on
+en los resultados observacionales. En las tablas \ref{tab:medianasap} y \ref{tab:factoresdcap}
+se exponen las medianas obtenidas para cada \textit{redshift} y los factores de crecimiento,
+respectivamente.
+
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[height=18cm, width=14cm]{../al_final/LR/evolucion/simulacion/evolucion.pdf}
+\caption{Evoluci\'on desde $z=3$ a $z=0$, de la masa proyectada 
+(derecha, l\'inea discontinua) y no proyectada (izquierda, l\'inea continua), 
+contenida dentro de aperturas de radio R=30kpc
+(arriba), R=50kpc (centro) y R=70kpc (abajo). En todos lo casos, los puntos representan a 
+la mediana (considerando todas las \bcgs~ de los c\'umulos principales) para un dado z,
+mientras que la regiones rayadas est\'an delimitadas por los valores m\'aximo y m\'inimo de cada z.}
+\label{fig:evosim}
+\end{figure}
+
+
+Es notable que, dentro de los factores de crecimiento, el m\'as grande para un dado
+\textit{redshift} es el factor
+asociado a la apertura de 70 kpcs,
+lo cual implica que la \bcg~ ha ido incrementando su masa
+en mayor proporci\'on en las afueras de la misma, ya sea por la 
+acreci\'on de la masa de sus sat\'elites mediante interacciones y fusiones,
+o por el desplazamiento del material bari\'onico central 
+hacia las afueras mediante alg\'un mecanismo de crecimiento adiab\'atico dado
+por procesos de \textit{feedback} (\cite{asc11}).
+%Esto nos conduce a analizar qu\'e sucede con los
+%perfiles de luz y de densidad de masa, c\'omo han evolucionado. para as\'i
+%poder inferir si las \bcgs~ responden al crecimiento \textit{inside-out}
+%en el cual, la regi\'on central de la galaxia se ha formado primero y su posterior crecieminto se ha dado
+%principalmente en las afueras. Te\'oricamente, se espera que las fusiones menores incrementen el tama\~no en las
+%afueras de la galaxia, sin alterar la densidad central de la misma.
+
+\begin{table}[H]
+\caption{Evoluci\'on desde $z=3$ a $z=0$,
+de las masas 2D y 3D 
+\mtre, \mcin~ y \mset~
+[$\times10^{12}$ M$_{\odot}$].}\label{tab:medianasap}
+\centering
+\begin{tabular}{c|c c c |c c c}
+\hline
+ & \multicolumn{3}{c|}{3D} &\multicolumn{3}{c}{2D}\\
+\hline
+z&\mtre&\mcin&\mset &\mtre&\mcin&\mset\\
+\hline
+3& 0.1719 & 0.2672 & 0.2898 & 0.2411 & 0.2897 & 0.2897 \\
+2& 0.2366 & 0.4322 & 0.5354 & 0.3395 & 0.5112 & 0.5360 \\
+1& 0.3557 & 0.6182 & 0.8526 & 0.5193 & 0.8175 & 0.8772 \\
+0& 0.4722 & 0.8740 & 1.2369 & 0.7390 & 1.3214 & 1.7384 \\
+
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\caption{Factores de crecimiento de las masas 2D y 3D dentro de
+aperturas.}\label{tab:factoresdcap}
+\centering
+\begin{tabular}{c|c c c |c c c}
+\hline
+ & \multicolumn{3}{c|}{3D} &\multicolumn{3}{c}{2D}\\
+\hline
+$\Delta z$ & $f_\mtre$ & $f_\mcin$
+& $f_\mset$ & $f_\mtre$ & $f_\mcin$ & $f_\mset$\\
+\hline
+$3-2$& 1.38 & 1.62 & 1.84 & 1.41 & 1.76 & 1.85 \\
+$2-1$& 1.50 & 1.43 & 1.59 & 1.53 & 1.60 & 1.64 \\
+$1-0$& 1.33 & 1.41 & 1.45 & 1.42 & 1.62 & 1.98 \\
+\end{tabular}
+\end{table}
+
+
 \section{Evoluci\'on en Perfiles}
-La producci\'on de ICL es otro proceso ...
+\label{sec:evolperfiles}
+Los resultados anteriores dan pie para llevar a cabo un estudio
+sobre la evoluci\'on
+de los perfiles de brillo superficial y de densidad de masa,
+puesto que a partir de ellos se pueden deducir cu\'ales son los
+procesos dominantes en la evoluci\'on de las galaxias en estudio. 
+Si bien sabemos que la ubicaci\'on de las \bcgs~ es crucial en materia evolutiva
+y que \'esta induce una preferencia por las fusiones, como
+protagonistas en la evoluci\'on de las mismas, algunos autores
+disienten con tal hip\'otesis, como es el caso mencionado anteriormente
+de crecimiento adiab\'atico (\cite{asc11}). Muchos alegan que la evoluci\'on ha sido \textit{inside-out},
+en la cual, se forma primero la regi\'on central de la galaxia y
+su posterior crecimiento se d\'a principalmente en las afueras de la misma.
+Dicho comportamiento se podr\'ia deducir a partir
+de los perfiles de luz y densidad, o mediante 
+las caracter\'isticas de las poblaciones estelares 
+que constituyen a las galaxias (ver seccion \ref{sec:estrellas}).
+En el caso de los perfiles, la diferencia crucial, entre los distintos mecanismos
+de crecimiento mencionados, radica en la evoluci\'on de sus formas,
+mientras un crecimiento adiab\'atico mantiene inalterado el \'indice de S\'ersic, se espera
+que las fusiones s\'i lo modifiquen.
+
+En esta secci\'on analizamos la evoluci\'on de los perfiles
+de brillo superficial y de densidad superficial de masa de las \bcgs~
+desde $z=1$ hasta el presente. S\'olo se consideran aquellas galaxias que sabemos
+sus progenitores son las que se hallan en el halo m\'as masivo de la regi\'on a $z=1$.
+En las figuras \ref{fig:perfmu} y \ref{fig:perfdens} se muestran los perfiles anteriormente
+mencionados, en ambas, los datos a z=0 est\'an caracterizados por c\'iculos anaranjados y 
+mientras que los correspondientes a z=1, por cuadrados verdes. Observando los perifles
+de brillo, es evidente que no prevalece un \'unico camino evolutivo
+dada la gran diversidad de comportamientos que se nos presentan,
+de esta manera, no se puede establecer a partir de los
+mismos cu\'al es el mecanismo dominante en la evoluci\'on, en algunos
+casos podr\'ia existir expansi\'on adiab\'atica 
+%(\bcg-13 y \bcg-27), mientras que en otros podr\'ia dominar
+%la acreci\'on de materia por interacciones con sat\'elites, como
+%(\bcg-7 y \bcg-15). Sin embargo, al estudiar los perfiles
+%de densidad superficial de masa,
+%el comportamiento evolutivo s\'i parece estar establecido, puesto que
+%en todos los casos se presenta agregaci\'on de materia en las afueras
+%de las galaxias ya que la densidad superficial aumenta en
+%aquellas zonas, mientras que la densidad de la regi\'on central la tiende
+%a mantenerse inalterada en ese intervalo de \z.
 
 \begin{figure}[H]
 \vspace*{-0.7cm}
@@ -684,19 +856,87 @@ de densidad del progenitor a $z=1$. Anarajado: perfil de densidad de la \bcg~ a 
 \end{figure}
 
 
-\MARU{Bai: la comparaci\'on directa de los perfiles de las \bcgs~ revela un creciemiento de adentro hacia afuera para aquellas m\'as
-masivas, es decir, a medida que la masa de \'estas galaxias crece, la densidad central de masa, crece lentamente
-$\rho_{1kpc}\propto M_{*}^{0.39}$, mientras que la pendiente de la parte exterior crece, de manera
-continua, de manera m\'as continua}
+(\bcg-13 y \bcg-27), mientras que en otros podr\'ia dominar
+la acreci\'on de materia por interacciones con sat\'elites, como
+(\bcg-7 y \bcg-15). Sin embargo, al estudiar los perfiles
+de densidad superficial de masa,
+el comportamiento evolutivo s\'i parece estar establecido, puesto que
+en todos los casos se presenta agregaci\'on de materia en las afueras
+de las galaxias ya que la densidad superficial aumenta en
+aquellas zonas, mientras que la densidad de la regi\'on central la tiende
+a mantenerse inalterada en ese intervalo de \z. Comportamiento compatible
+con el crecimiento \textit{inside-out}.
+
+\MARU{C\'omo meto ac\'a la ICL}
+
+%\MARU{Bai: la comparaci\'on directa de los perfiles de las \bcgs~ revela un creciemiento de adentro hacia afuera para aquellas m\'as
+%masivas, es decir, a medida que la masa de \'estas galaxias crece, la densidad central de masa, crece lentamente
+%$\rho_{1kpc}\propto M_{*}^{0.39}$, mientras que la pendiente de la parte exterior crece, de manera
+%continua, de manera m\'as continua}
 
 \section{Edades y Metalicidades}
+\label{sec:estrellas}
+ En la secci\'on anterior vimos c\'omo han evolucionado los perfiles de las \bcgs, tanto
+ en brillo como en densidad superficial, desde $z=1$. Si bien el comportamiento
+ no es n\'itido cuando se analizan los primeros, los segundos dejan una clara evidencia que las
+ \bcgs~ han ido acretando y ensamblando masa en las partes m\'as externas de las mismas.
+ Ello, unido al factor de crecimiento de la masa estelar que se
+ obtiene en el intervalo de \z~ en cuesti\'on (ver secci\'on \ref{sec:evolmasa}),
+ refuerza la hip\'otesis de crecimiento a partir de fusiones. Ahora bien, como ya hemos
+ mencionado, existen varios tipos de fusiones, y cada una de ellas afecta de distinta manera
+ a las poblaciones estelares de las galaxias que se fusionan. Dado que la mayor\'ia de los
+ modelos predicen que las fusiones sucedieron en tiempos recientes, el contenido de gas
+ de las galaxias acretadas deber\'ia ser bajo, por lo tanto, las fusiones tendr\'ian que
+ ser poco disipativas. No obstante, los efectos de \'estas sobre las poblaciones estelares ser\'an
+ muy distintos si las galaxias que se fusionan son de masa comparable (fusiones mayores - $\geq1:3$ -) o no (fusiones
+ menores - $\leq 1:4$ -). Las primeras tender\'an a modificar las \'orbitas
+ de las estrellas y por lo tanto, \'estas se mezclar\'an, diluyendo cualquier gradiente de edad
+ y metalicidad que pueda haber existido en la galaxia hasta ese entonces. Por el contrario, 
+ las fusiones menores, van agregando estrellas j\'ovenes y por ende m\'as pobres en metales,
+ en las afueras de las galaxias, incentivando la producci\'on de gradientes negativos de edad y metalicidad.
+ Un escenario evolutivo que provee un punto de partida para analizar los peque\~nos gradientes
+ que se ven en las \bcgs~ (\cite{lou12}, \cite{oli15}) se basa 
+ %a $z\gtrsim3$, producido por 
+ un \textit{starburst} a $z\gtrsim3$, a partir del cual
+ se formar\'ia un gradiente inicial motivado por el potencial gravitacional.
+ Luego, el gradiente se podr\'ia haber aplanado
+ por eventos de fusiones violentas, es decir, fusiones mayores o reforzado por fusiones menores.
+ %, lo cual no es muy probable
+ %en los \'ultimos estad\'ios del universo, puesto que la gran mayor\'ia de las galaxias sat\'elite
+ %que acanzan el pozo de potencial, han sufrido todos los efectos de su hostil h\'abitat y han
+ %sido altamente despobladas, llegando as\'i una galaxia pobre en masa a fusionar con la \bcg.
+ %Cabe destacar que gran parte de las estrellas que han sido arrebatadas de las galaxias
+ %sat\'elites, han pasado a formar parte de la \icl.. En este contexto, luego de alguna que otra fusi\'on mayor,
+ %la \bcg~ habr\'ia incrementado su masa y tama\~no por medio de fusiones menores, las cuales, como
+ %ya se ha mencionado, intensifican los gradientes, debido a las poblaciones estelares agregadas.
+ En las figura \ref{fig:edad} se muestran los comportamientos (l\'ineas continuas) de las edades (izquierda) y metalicidades
+ (derecha) estelares desde $z=3$ hasta el presente.  Las regiones sombreadas representan $1\sigma$ en el caso
+ de las edades y $0.5\sigma$ para las metalicidades, esta \'ultima as\'i escogida 
+ puesto que al ser tan grande, dificulta visualizar las tendencias en el gr\'afico.
+ Ambos paneles resultan del \textit{stacking} para cada \textit{redshift} de
+ todas las \bcgs~ cuyos progenitores a $z=3$ son las \bcgs~ del halo principal. Dicho procedimeinto
+ se llev\'o a cabo mediante la normalizaci\'on de
+ las distancias galactoc\'entricas en funci\'on de \rvc. Los puntos
+ en verde son datos de \cite{oli15} en $z \sim 0$, adaptados a la metalicidad solar utilizada
+ en el presente trabajo.
+ En primer lugar puede verse que a $z=0$ los resultados obtenidos son comparables con los observacionales,
+ puesto que los datos de \cite{oli15} se hallan dentro de los $3\sigma$ de los resultados obtenidos, tanto en 
+ edad, como en metalicidad. Tambi\'en puede verse en ambos comportamientos
+ un aplanamiento del gradiente a medida que transcurre el tiempo. Si bien en lo que respecta a las edades
+ para cada \textit{redshift}, la amplitud que existe en cada regi\'on es moderada, en lo 
+ que respecta a las metalicidades no se puede decir los mismo, se tiene una gran variedad de metalicidades
+ a lo largo de toda la \bcg. La tendencia general est\'a dada por edades y metalicidades
+ m\'as grandes en el centro. Si bien el aplanamiento se intensifica hacia \textit{redshifts}
+ m\'as bajos, el m\'as notable se d\'a
+ entre $z=1$ y $z=0$, por cual, por lo cual, se puede decir que en tal intervalo podr\'ia haber ocurrido alguna fusi\'on
+ mayor que destruya el gradiente que se ten\'ia hasta ese entonces. Algunos estudios, basados
+ en galaxias compa\~neras de las \bcgs, concluyen que la masa estelar de las \bcgs~ crece
+ en un factor $\sim 1.8$ por fusiones mayores para $ 0.8\le z \le 1.5$ (\cite{bur13})
+ y principalmente por fusiones menores, en un fator $\sim 1.1$ para $z\le0.3$ (\cite{edw12}). Por lo tanto,
+ si bien las fusiones mayores son poco probables a bajos \textit{redshifts}, todav\'ia
+ son posibles (\cite{jim13}).
+ 
 
-
-\MARU{Bai: las \bcgs~ son galaxias el\'ipticas y la mayor parte de su poblaci\'on estelar
-se habr\'ia creado antes de z=2.
-La mayor formaci\'on de estrellas se complet\'o a redshifts grandes, en galaxias individuales,
-que fueron ensambladas en \'epocas posteriores a trav\'es de fusiones secas, en la formaci\'on de una 
-galaxia masiva.}
 
 %\caption{Apilado en edades de las part\'iculas estelares, sobre las 10 \bcgs cuyos progenitores a $z=1$,$z=2$ y $z=3$ son la \bcg~ del c\'umulo principal. En rojo: }
 \begin{figure}[H]
@@ -714,7 +954,22 @@ Las zonas sombreadas representan $\pm 1\sigma$ en las edades y $\pm 0.5\sigma$ e
 \footnotetext{Z$_{\odot}=0.134$ (Asplund+2009)}
 
 
-
+En la \ref{fig:gradientes} se muestran las distribuciones de los gradientes
+de edad (izquierda) y metalicidad (derecha) de todas las \bcgs a $z=0$. Una primera observaci\'on es que ambas 
+distribuciones cubren rangos peque\~nos 
+respecto a los obtenidos observacionalmente por \cite{lou12}, quienes obtienen
+rangos que abarcan valores desde  $-0.6 a 0.8$ para los gradientes
+en edad y desde $-0.8 a 0.8$ para los de metalicidad, dando as\'i
+\bcgs~ con gradientes positivos, lo cual no se envidencia en nuestros resultados.
+Los valores medios obtenidos en este trabajo son $-0.04$ para las edades
+y $-0.07$ para las metalicidades, si bien \'estos se alejan respecto a los valores $0.069$ y $-0.285$ de \cite{lou12},
+respectivamente, nuestros resultados se encuentran dentro de los m\'as frecuentes de dichos autores.
+Por otro lado, \cite{edw16} estudian edades y metalicidades de las \bcgs~ de tres c\'umulos locales,
+esto lo llevan a cabo caracterizando cuatro regiones para cada \bcg, estas son: $core$, $center$, $outer$ e $icl$,
+de este modo, encuentran metalicidades centrales
+de $\sim 0.021, 022, 025$, mientras que en las afueras 
+las metalicidades caen a $\sim 0.017, 0.018, 0.020$ y sus valores para la $icl$ son $\sim 0.013, 0.013, 0.016$. Esto
+nos permite concluir que los resultados obtenidos est\'an dentro de los resultados observacionales.
 
 
 %utilizando Z$_{\odot}=0.134$ (Asplund+2009). 
@@ -742,10 +997,48 @@ al valor medio de la distribuci\'on.}
 
 \section{influencia del polvo. solo a z=3 para algun dusty case}
 
+La presencia de polvo altera las luminosidades de las galaxias observadas en UV y en el \'optico, 
+dado que el mismo absorbe la luz emitida por las estrellas
+y n\'ucleos activos, particularmente las longitudes de onda corta,
+se calienta y luego la re-emite en longitudes de onda m\'as largas,
+t\'ipicamente en el infrarrojo y submilim\'etrico ($0.8-1\times10^3 \mu m$ ).
+Dado entonces su protagonismo, es necesario analizar cu\'ales son sus efectos a la hora de calcular las masas,
+puesto que, si los m\'etodos observacionales derivan las mismas a partir de su luminosidad,
+la masas podr\'ian estar subestimadas al utilizar filtros en el \'optico
+o sobreestimadas si los filtros utilizados abarcan bandas que contemplan la emisi\'on del polvo, como es el caso de la banda K.
+En esta secci\'on se estudian entonces los efectos del polvo, s\'olo en la banda V, a $z=3$ (dado que a \z~  m\'as altos
+la presencia de polvo es mayor), sobre la radiaci\'on emitida por nuestras galaxias y su impacto sobre la determinaci\'on de las masas.
+%Para esta parte se activ\'o el polvo el reprocesamiento del polvo en el c\'odigo $GRASIL-3D$  
+A modo de visualizar los efectos del polvo, 
+se muestran a continuaci\'on los mapas de brillo superficial de dos \bcgs~ a $z=3$ 
+con distribuciones de polvo muy diferentes entre s\'i. Una de ellas con 
+una alta concentraci\'on central (ver figura \ref{fig:polvo1}) y la
+otra con una distribuci\'on m\'as bien marginal (ver figura \ref{fig:polvo22}). 
+En cada una de las figuras se expone 
+el mapa de brillo superficial de la galaxia sin polvo (izquierda) y
+con polvo (derecha). Para el caso de la \bcg~ con una gran concentraci\'on central, los efectos del polvo 
+son r\'apidamente observables,
+puesto que la gran emisi\'on central en color azul y crema, se ve fuertemente aplacada por la presencia
+del mismo, siendo inexistente en su contracara con polvo. Adem\'as puede verse c\'omo se estropea la morfolog\'ia
+de la regi\'on central, de la cual se deduce que la distribuci\'on del polvo no es para nada is\'otropa all\'i.
+%Para la \bcg~ que contiene una distribuci\'on marginal, la m\'axima emisi\'on no se ve afectada, pero puede verse cómo
+%la presencia del polvo afecta a algunas regiones 
+%cuyas emisiones est\'an caracterizadas por brillos superficiales entre 18-21 $mags/arcseg^{2}$. De todos modos,
+%el l\'imite brillo superficial utilizado por este trabajo pareciera no mordificarse, por lo tanto podr\'iamos
+%esperar que los efectos del polvo no se vean aqu\'i. Lo cual no implica que los observacionales no lo sufran, el hecho
+%fundamental est\'a en la suma de masas de las part\'iculas dentro de ese l\'imite, si el mismo se mantiene inalterado,
+%no podremos inferir diferencias, por el contrario, dado que la distribuci\'on de energ\'ia est\'a vinculada con las poblaciones
+%estelares que constituyen a la galaxia, cuando los observacionales deducen las mismas, est\'an sesgando la masa a poblaciones
+%m\'as viejas y por lo tanto m\'as masivas, efecto que no estudiamos pero que mostramos en la figura \ref{fig:seds}. Antes
+%de ver analizar las distribuciones de energ\'ia, veamos con m\'as claridad, los perfiles de brillo superficial
+%de las galaxias en estudio, para ello, en la figura \ref{fig:perfiles}, se exhiben los perfiles de ambas
+%\bcgs~, con polvo (CP, l\'ine discontinua roja) y sin polvo (SP, l\'ine continua celeste).
+
+
 \begin{figure}[H]
  \centering
- \includegraphics[height=7.5cm, width=7.5cm,trim={0cm   0.1cm 3.5cm 1.cm},clip ]{../al_final/LR/LR_minpot3_rmmax/nodust/grupo0/mu24/D1/026/bmaps_D1.pdf}
- \includegraphics[height=7.5cm, width=7.5cm,trim={2.8cm 0.1cm 0.3cm 1.cm},clip ]{../al_final/LR/LR_minpot3_rmmax/dust/grupo0/mu24/D1/026/bmaps_D1.pdf}
+ \includegraphics[height=7.2cm, width=7.5cm,trim={0cm   0.1cm 3.7cm 1.cm},clip ]{../al_final/LR/LR_minpot3_rmmax/nodust/grupo0/mu24/D1/026/bmaps_D1.pdf}
+ \includegraphics[height=7.2cm, width=7.5cm,trim={2.8cm 0.1cm 0.3cm 1.cm},clip ]{../al_final/LR/LR_minpot3_rmmax/dust/grupo0/mu24/D1/026/bmaps_D1.pdf}
 \caption{Mapas de brillo superficial con (derecha) y sin (izquierda) polvo a $z=3$, correspondientes a la \bcg-1, de gran concentraci\'on central de polvo.}
 \label{fig:polvo1}
 \end{figure}
@@ -753,33 +1046,67 @@ al valor medio de la distribuci\'on.}
 
 \begin{figure}[H]
  \centering
- \includegraphics[height=7.5cm, width=7.5cm,trim={0cm   0.1cm 3.5cm 1.cm},clip ]{../al_final/LR/LR_minpot3_rmmax/nodust/grupo0/mu24/D22/026/bmaps_D22.pdf}
- \includegraphics[height=7.5cm, width=7.5cm,trim={2.8cm 0.1cm 0.3cm 1.cm},clip ]{../al_final/LR/LR_minpot3_rmmax/dust/grupo0/mu24/D22/026/bmaps_D22.pdf}
+ \includegraphics[height=7.2cm, width=7.5cm,trim={0cm   0.1cm 3.7cm 1.cm},clip ]{../al_final/LR/LR_minpot3_rmmax/nodust/grupo0/mu24/D22/026/bmaps_D22.pdf}
+ \includegraphics[height=7.2cm, width=7.5cm,trim={2.8cm 0.1cm 0.3cm 1.cm},clip ]{../al_final/LR/LR_minpot3_rmmax/dust/grupo0/mu24/D22/026/bmaps_D22.pdf}
 \caption{Mapas de brillo superficial con (derecha) y sin (izquierda) polvo a $z=3$, correspondientes a la \bcg-22, cuyo polvo se distribuye marginalmente.}
 \label{fig:polvo22}
 \end{figure}
 
+Para la \bcg~ que contiene una distribuci\'on marginal,
+la m\'axima emisi\'on no se ve afectada, pero es notable c\'omo el
+efecto del polvo aten\'ua algunas regiones 
+cuyas emisiones est\'an caracterizadas por brillos superficiales
+entre 18-21 $mags/arcseg^{2}$.
+No obstante, el radio que caracteriza al l\'imite
+en brillo superficial utilizado por este trabajo, parece no estar alterado en ambos casos,
+por ende, se espera
+que los efectos del polvo no se vean aqu\'i. Esto no implica que los observacionales no lo sufran. La diferencia radical
+est\'a en el procedimiento, en este trabajo se suman las masas de las part\'iculas estelares que se hallan dentro del
+c\'irculo dado por el l\'imite isofotal, si el radio en que se halla el mismo se mantiene inalterado,
+no podremos inferir diferencias ya que no se analizan los efectos radiativos en su interior. Por el contrario,
+como ya se ha mencionado, los m\'etodos observacionales 
+deducen sus masas a partir de la relaci\'on $M/L$, dado que
+dicha relaci\'on se calcula a partir de m\'etodos que involucran luz, ya sea
+mediante \'indices de color o modelando fotometr\'ias o distribuciones de energ\'ias,
+la absorci\'on UV/\'optico y el consecuente sesgo hacia emisiones caracter\'iticas del polvo,
+dar\'an masas incorrectas si la cantidad de polvo es apreciable. Este
+efecto, aunque no lo estudiamos, se puede ver en la distribuci\'on de energ\'ia espectral de la \bcg-1, mostrada en figura \ref{fig:seds}.
+
+
 \begin{figure}[H]
- \includegraphics[height=8.5cm, width=8.5cm,trim={0cm 0.1cm 0.cm 0.cm},clip]{../al_final/LR/LR_minpot3_rmmax/polvo_nopolvo1D1.pdf}
- \includegraphics[height=8.5cm, width=7.1cm,trim={2.9cm 0.1cm 0.2cm 0.cm},clip]{../al_final/LR/LR_minpot3_rmmax/polvo_nopolvo1D22.pdf}
+\centering
+ \includegraphics[height=9cm, width=8.5cm,trim={0cm 0.1cm 0.cm 0.cm},clip]{../al_final/plots/seds/plots_seds/bsed_D1.pdf}
+ %\includegraphics[height=8.5cm, width=7.1cm,trim={2.9cm 0.1cm 0.3cm 0.cm},clip]{../al_final/plots/seds/plots_seds/sed_d22.pdf}
+\caption{Distribuci\'on espectral de energ\'ia con (CP, l\'inea discontinua roja) y sin (SP, l\'inea continua celeste) polvo a $z=3$, para la \bcg-1}
+\label{fig:seds}
+\end{figure}
+
+Con el fin de apreciar con mayor claridad los efectos del polvo sobre las \bcgs~ en estudio,
+en la figura \ref{fig:perfiles} se exhiben los perfiles de luz
+con polvo (CP, l\'inea discontinua roja) y sin polvo (SP, l\'inea continua celeste). En dicha figura se
+pueden visualizar las diferencias en las que el polvo se distribuye entre ambas galaxias.
+Por un lado, en la \bcg-1 vemos su elevada concentraci\'on
+central a partir de la gran ca\'ida de 
+brillo en dicha resgi\'on, mientras que en la \bcg-22, el polvo de distribuye en toda la galaxias
+puesto que el perfil de brillo es levemente atenuado en toda su dimensi\'on. Ahora bien, lo que aqu\'i
+nos interesa ver es qu\'e sucede en el l\'imite isofotal. Lo que se observa, es que en ambas \bcgs~
+el \rvc~ no se ve afectado por el polvo, puesto que la diferencia entre los valores del mismo
+obtenidos con y sin
+polvo, son despreciables.
+
+\begin{figure}[H]
+ \includegraphics[height=8.5cm, width=7.5cm,trim={0cm 0.1cm 0.cm 0.cm},clip]{../al_final/LR/LR_minpot3_rmmax/polvo_nopolvo1D1_b.pdf}
+ \includegraphics[height=8.5cm, width=6.1cm,trim={2.9cm 0.1cm 0.2cm 0.cm},clip]{../al_final/LR/LR_minpot3_rmmax/polvo_nopolvo1D22_b.pdf}
 \caption{Perfiles de brillo con (CP, l\'inea discontinua roja) y sin (SP, l\'inea continua celeste) polvo, para la \bcg~ con mucha
 concentraci\'on central de polvo (izquierda, \bcg-1) y otra, con una distribuci\'on marginal de polvo (derecha, \bcg-22), a $z=3$.}
 \label{fig:perfiles}
 \end{figure}
 
 
-\begin{figure}[H]
-\centering
- \includegraphics[height=8.5cm, width=8.5cm,trim={0cm 0.1cm 0.cm 0.cm},clip]{../al_final/plots/seds/plots_seds/sed_D1.pdf}
- %\includegraphics[height=8.5cm, width=7.1cm,trim={2.9cm 0.1cm 0.3cm 0.cm},clip]{../al_final/plots/seds/plots_seds/sed_d22.pdf}
-\caption{Distribuci\'on espectral de energ\'ia con (CP, l\'inea discontinua roja) y sin (SP, l\'inea continua celeste) polvo a $z=3$, para la \bcg-1}
-\label{fig:seds}
-\end{figure}
-
 
 \begin{figure}[H]
  \centering
- \includegraphics[height=9cm, width=9cm]{../al_final/LR/evolucion/histogramas/Mmu_polvo_vs_nopolvo.pdf}
+ \includegraphics[height=9cm, width=8.5cm]{../al_final/LR/evolucion/histogramas/Mmu_polvo_vs_nopolvo.pdf}
 \caption{Distribuciones de masas \mvc~, de las \bcgs~ de la muestra principal a $z=3$, calculadas con (CP, histograma con rayas diagonales) y sin polvo (Sp, histograma vac\'io) y sus correspondientes mediandas.}
 \label{fig:histpnp}
 \end{figure}

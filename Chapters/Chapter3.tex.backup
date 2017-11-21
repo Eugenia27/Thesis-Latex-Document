@@ -58,7 +58,7 @@ A continuaci\'on se listan las distintas muestras que se utilizar\'an en este tr
 
 \begin{itemize}
 
-\item \cmay: Muestra completa en volumen formada por los 24 c\'umulos m\'as masivos. 
+\item \cmay: Muestra completa en masa formada por los 24 c\'umulos m\'as masivos. 
 \item \cmen: Muestra formada por los 5 c\'umulos principales de baja masa. 
 \item \aum: Muestra aumentada formada por {\bf CMAY}, {\bf CMEN}, m\'as
 los dem\'as c\'umulos que se encuentran en las regiones resimuladas y no son principales. 
@@ -76,7 +76,7 @@ de los c\'umulos que conforman las muestras \cmay, \cmen~ y \aum
  \includegraphics[height=9cm, width=9cm]{../al_final/LR/evolucion/histogramas/quilombo.pdf}
  \caption{Distribuciones de masas de los c\'umulos correspondientes a
 las muestras \cmay~ (hitograma con rayas diagonales), \cmen~ (histograma con rayas horizontales) y
-\aum~ (histograma vac\'io, rojo). Las líneas verticales, discontinua, a puntos y roja, caracterizan a
+\aum~ (histograma vac\'io, rojo). Las l\'ineas verticales, discontinua, a puntos y roja, caracterizan a
 los valores de las medianas de las muestras \cmay, \cmen~ y \aum~ respectivamente}
 \label{fig:distribuciones}
 \end{figure}
@@ -102,16 +102,21 @@ determinar cu\'ales de todas las part\'iculas estelares contribuyen a la masa es
 este trabajo utiliza un l\'imite isofotal, una de las muchas t\'ecnicas observacionales, descriptas en la secci\'on ...
 
 
-El procedimiento implementado consiste en obtener el perfil de luz de la \bcg~ en brillo superficial, determinar el radio correspondiente al l\'imite isofotal,
+El procedimiento implementado consiste en obtener el perfil de luz de la \bcg~ en brillo 
+superficial, determinar el radio correspondiente al l\'imite isofotal,
 en este caso el valor escogido es $\mu_{V}=24$ $mags/arcseg^{2}$
 y sumar toda la masa contenida en el interior de la apertura circular dada por dicho radio.
-Para llevar a cabo lo anterior se necesita disponer de los valores de intensidad espec\'ifica monocrom\'atica ($I_{\nu}$) de cada una de las celdas de la
+Para llevar a cabo lo anterior se necesita disponer de los valores 
+de intensidad espec\'ifica monocrom\'atica ($I_{\nu}$) de cada una de las celdas de la
 grilla. Esto \'ultimo se logr\'o mediante el empleo de un 
 c\'odigo que utiliza la distribuci\'on espectral de energ\'ia (\textit{SED}) calculada por \textit{GRASIL}, que devuelve el valor de    
 $I_{\nu}$ (en el sistema \textit{AB}) de cada celda (en unidades de $[erg$ $cm^{-2}$ $s^{-1}$ $arcseg^{-2}$ $Hz^{-1}]$).
-De esta manera, se binearon las regiones que continienen a las \bcgs, en anillos conc\'entricos centrados en el m\'inimo de potencial. Se sumaron las intensidades correspondientes a cada anillo
-y se obtuvo el perfil de luz, caracterizado por los valores medios en cada uno de los anillos, tanto de distancia radial como de intensidad.
-Posteriormente, por medio de de la ecuaci\'on \ref{eq:mu}, se convirtieron los valores medios de intensidad a brillo superficial en la banda $V$ de Johnson . 
+De esta manera, se binearon las regiones que continienen a las \bcgs, en anillos conc\'entricos 
+centrados en el m\'inimo de potencial. Se sumaron las intensidades correspondientes a cada anillo
+y se obtuvo el perfil de luz, caracterizado por los valores medios en 
+cada uno de los anillos, tanto de distancia radial como de intensidad.
+Posteriormente, por medio de de la ecuaci\'on \ref{eq:mu}, se convirtieron los 
+valores medios de intensidad a brillo superficial en la banda $V$ de Johnson . 
 Una vez obtenido el perfil de luz en brillo superficial,
 se buscaron los pares de puntos que continen al valor de $\mu$ l\'imite escogido,
 y se interpolaron con una recta con el fin de  obtener la distancia radial correspondiente a dicho l\'imite.
@@ -223,8 +228,8 @@ se corresponde con la conversi\'on a la banda $V$ de Johnson.
 
 %------------------------------------------------
 %------------------------------------------------
- \section{Grasil 3D.... }
-
+\section{Grasil 3D.... }
+\label{sec:grasil}
 %\lipsum[6]
 
 %----------------------------------------------------------------------------------------
